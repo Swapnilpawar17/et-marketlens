@@ -95,12 +95,12 @@ NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=your-password
 NEO4J_DATABASE=neo4j
 API_PORT=8000
-FRONTEND_URL=http://localhost:3000
+FRONTEND_URL=https://etmarketlens.vercel.app/
 Frontend .env.local:
 
 Bash
 
-NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=https://et-marketlens.onrender.com
 3. Initialize Database
 Bash
 
@@ -268,7 +268,7 @@ Neo4j for Aura free tier
 OpenAI for GPT-4o API
 Vercel & Render for hosting credits
 📞 Contact
-Demo: https://your-vercel-app.vercel.app
+Demo: https://etmarketlens.vercel.app
 GitHub: https://github.com/yourusername/et-marketlens
 Email: your.email@example.com
 Built with ❤️ for Indian retail investors 🇮🇳

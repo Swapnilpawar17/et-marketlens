@@ -11,6 +11,9 @@ module.exports = {
         'et-blue': '#004E89',
         'et-dark': '#1A1A2E',
       },
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-out',
+      },
     },
   },
   plugins: [],
