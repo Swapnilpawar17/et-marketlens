@@ -1,0 +1,50 @@
+﻿{
+  "user_id": "demo_user_001",
+  "persona": "sip_investor",
+  "holdings": [
+    {
+      "symbol": "RELIANCE",
+      "quantity": 10,
+      "avg_buy_price": 2450.50,
+      "goal_id": "retirement"
+    },
+    {
+      "symbol": "TCS",
+      "quantity": 5,
+      "avg_buy_price": 3600.00,
+      "goal_id": "retirement"
+    },
+    {
+      "symbol": "INFY",
+      "quantity": 15,
+      "avg_buy_price": 1450.75,
+      "goal_id": "education"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "quantity": 20,
+      "avg_buy_price": 1580.00,
+      "goal_id": "retirement"
+    }
+  ],
+  "goals": [
+    {
+      "name": "retirement",
+      "target_amount": 20000000,
+      "target_year": 2045,
+      "risk_profile": "moderate"
+    },
+    {
+      "name": "education",
+      "target_amount": 2500000,
+      "target_year": 2030,
+      "risk_profile": "conservative"
+    },
+    {
+      "name": "home",
+      "target_amount": 5000000,
+      "target_year": 2028,
+      "risk_profile": "moderate"
+    }
+  ]
+}

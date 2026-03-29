@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --et-orange: #FF6B35;
+  --et-blue: #004E89;
+  --et-dark: #1A1A2E;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #f8fafc;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.impact-high {
+  border-left: 4px solid #ef4444;
+}
+
+.impact-moderate {
+  border-left: 4px solid #f59e0b;
+}
+
+.impact-mild {
+  border-left: 4px solid #3b82f6;
+}
+
+.impact-low {
+  border-left: 4px solid #10b981;
+}

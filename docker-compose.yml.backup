@@ -1,0 +1,32 @@
+﻿version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5.16.0
+    container_name: et-neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/hackathon2024
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: et-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=etuser
+      - POSTGRES_PASSWORD=hackathon2024
+      - POSTGRES_DB=marketlens
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  postgres_data:
