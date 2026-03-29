@@ -256,8 +256,27 @@ Impact:
 Target: 14cr+ demat users
 Solves: ₹50L cr annual retail losses from poor timing
 Monetization: ET Prime upsell ($10/month → $15 with MarketLens)
-👥 Team
-Built by Swapnil and Aditya for ET Hackathon 2026
+👥 Team GenX
+
+Members:
+- **Swapnil Pawar** ([@Swapnilpawar17](https://github.com/Swapnilpawar17)) - Full Stack Development, Backend Architecture
+- **Aditya Shinde** ([@Adii-Shinde](https://github.com/Adiii-Shinde)) - Frontend Development, UI/UX Design
+
+**Built for:** ET GenAI Hackathon 2026
+
+---
+
+🤝 Contributions
+
+Both team members contributed equally to:
+- System architecture design
+- Backend API development (FastAPI + LangChain)
+- Frontend dashboard (Next.js + Tailwind)
+- Knowledge graph setup (Neo4j)
+- Business impact analysis
+- Demo video & presentation
+
+Individual commits visible in [GitHub history](https://github.com/Swapnilpawar17/et-marketlens/commits/main).
 
 📄 License
 MIT License - See LICENSE file
