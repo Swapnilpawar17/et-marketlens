@@ -20,7 +20,12 @@ app = FastAPI(
 app.include_router(impact_router)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[os.getenv("FRONTEND_URL", "http://localhost:3000")],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://et-marketlens.vercel.app",
+        "https://*.vercel.app",  # Allow all Vercel preview URLs
+        os.getenv("FRONTEND_URL", "http://localhost:3000")
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
